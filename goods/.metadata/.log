@@ -1,0 +1,61 @@
+!SESSION 2016-05-24 17:37:25.478 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.genuitec.eclipse.core 1 0 2016-05-24 17:38:02.209
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.133
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.239
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.303
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.349
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.407
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.468
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.548
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.632
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.711
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.785
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-05-24 17:38:10.866
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-05-24 17:39:33.042
+!MESSAGE An internal error occurred during: "CheckLicensesAndNotify".
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.pulse.client.targetcfg.collab.ui.jobs.CheckLicensesAndNotifyJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-05-24 17:39:34.276
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.pulse2.client.targetcfg.ui.jobs.InitializeTargetCfgJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-05-24 17:39:34.277
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.pulse2.client.services.internal.PulseClient$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-05-24 17:39:34.278
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.pulse2.client.services.internal.PulseClient$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-05-24 17:39:34.278
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.pulse.client.targetcfg.collab.ui.internal.InformAboutDashboardStartup$CheckDashboardPreferencesAndNotifyJob
